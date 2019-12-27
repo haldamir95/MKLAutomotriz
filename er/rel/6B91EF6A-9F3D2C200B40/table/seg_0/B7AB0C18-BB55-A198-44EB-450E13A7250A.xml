@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7AB0C18-BB55-A198-44EB-450E13A7250A" name="Persona">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>4D892A1E-74AE-185D-209C-43F637204D12</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Persona_ID" id="A137B3B0-6345-94B2-CE67-620A0AE4D61F">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID" id="C97974F0-67D9-D79A-1F9C-7AA3A3AE81B9">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>E688A1BD-F72C-0B86-9401-8BEBAB84735F</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPI" id="477ADAFC-A12C-26F8-E4FE-74A798BA11E1">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>D4180143-9E65-4C79-1E8C-DACF6C82CC72</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="37F57052-8BD3-02D8-1166-E2E31984FBE0">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>F3DD27DA-1991-CE6D-6184-7663D03C397C</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="E2F07CE5-0B2F-303F-F8C3-F9D19CDBBFCF">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>2F2523E9-AD90-C0B6-5C26-7A115B886495</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="62113687-BCE6-3F7A-F6FA-E02DF614C17E">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>39F66AF0-25AE-2950-B490-5D3971AC0588</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="82C7DA5D-F83A-DFAE-AA9B-503A3ECE7F90">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>DEDF1D38-DC61-8AAE-51A1-78F8B8084776</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="6366C2CD-68CA-7988-5B3F-041440AF5B6F">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>3E2D3982-8A3B-C7C1-65EE-87FB436EA958</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="87BF7D06-99BD-C7E3-D56E-01F20A23BCA0">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>7D48E23C-7291-0B19-9685-031484D3D41D</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="51F297A5-37A5-65D7-A4C0-A564557D5DC4">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>A3BC3120-AE00-1105-4333-D3A052B6EC77</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="E2DCB006-745E-F6A4-A8CB-69FE0C86C16F">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>239ADCD3-407B-A2B0-7584-07519859C745</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PERSONA_TIPO_PERSONA_ID" id="E927BBC9-74A2-8116-9C5E-4D5B5B06C0FE">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF12815F-FA99-6728-31E5-0544A65E5B16" referredColumn="A8619232-14AC-C10C-FF56-CB7F8EAF9124"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15587C82-289A-402F-D161-6868763C90E5" name="Persona_PK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A137B3B0-6345-94B2-CE67-620A0AE4D61F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E008A5B-8450-CE1C-DC5F-8EE76AED8F9F" name="Persona_TIPO_PERSONA_FK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>EBB17041-FDE5-7FEC-7413-445824C08436</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E927BBC9-74A2-8116-9C5E-4D5B5B06C0FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

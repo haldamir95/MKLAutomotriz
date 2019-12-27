@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BBF2B00-7829-B18C-498A-4283720B8B54" name="TIPO_PERSONA">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>6B9405E1-7AD6-3D21-A5B6-EBDF9284B39A</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DF293068-F965-323D-8964-D264177409E0">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>1859AF48-D46B-3BCD-1E02-FCBD5F4505DD</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="926FB255-480E-4B70-FC9E-743FD046FA91">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>56F819FA-79BB-84EB-C302-CCF8953DBFB6</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PERSONA_ID" id="A8619232-14AC-C10C-FF56-CB7F8EAF9124">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16D27A41-936E-6169-A62E-E5D0FB977CAD" name="TIPO_PERSONA_PK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A8619232-14AC-C10C-FF56-CB7F8EAF9124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

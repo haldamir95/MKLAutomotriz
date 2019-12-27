@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="916FB66A-CFAE-51A0-C33D-902B7326AE54" name="TIPO_TRANSACCION">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>A863B65E-70EA-FA79-BCB1-E0FE786FD487</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_TRANSACCION_ID" id="A3BF750B-649D-B3B8-DACB-8BE4981CCA60">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID" id="F17D778F-FA0F-DBEC-9E80-9A5C400126A6">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>74945D81-189F-E5A4-A2E6-10F38DD3A27C</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="DCC17EB9-BD9A-295C-67FA-B8C115B3BBB8">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>8C12298E-A337-BB65-5DAE-E92DCC964F1A</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORRELATIVO" id="8BDD0513-50C7-D274-815F-47847BB52E50">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>066E88BB-14A1-5D61-0D01-60BF055C9C44</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F22BA190-DB1F-6304-BEBA-28A807908864" name="TIPO_TRANSACCION_PK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A3BF750B-649D-B3B8-DACB-8BE4981CCA60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

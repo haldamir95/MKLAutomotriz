@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D892A1E-74AE-185D-209C-43F637204D12" name="Persona">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:40 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E688A1BD-F72C-0B86-9401-8BEBAB84735F">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:47 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DPI" id="D4180143-9E65-4C79-1E8C-DACF6C82CC72">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:47 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="F3DD27DA-1991-CE6D-6184-7663D03C397C">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:47 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="2F2523E9-AD90-C0B6-5C26-7A115B886495">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:48 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="39F66AF0-25AE-2950-B490-5D3971AC0588">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:48 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="DEDF1D38-DC61-8AAE-51A1-78F8B8084776">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:48 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT" id="3E2D3982-8A3B-C7C1-65EE-87FB436EA958">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:48 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO" id="7D48E23C-7291-0B19-9685-031484D3D41D">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:48 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD" id="A3BC3120-AE00-1105-4333-D3A052B6EC77">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:20:49 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<engineerTo>
+<item key="6B91EF6A-86FC-16B1-2CF8-9F3D2C200B40" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

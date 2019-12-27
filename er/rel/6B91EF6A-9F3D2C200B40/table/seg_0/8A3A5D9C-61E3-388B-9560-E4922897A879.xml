@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A3A5D9C-61E3-388B-9560-E4922897A879" name="DETALLE">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>7E142193-8E94-51D9-0A61-3749D5B8715E</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANSACCION" id="21CDCE8D-92CE-985C-285C-8E4BE87FC4DD">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>03B5601D-17EB-7FA5-8320-736B33835BC0</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO" id="B5996235-1989-B809-6650-CE6269BF4145">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>E34030A6-1302-272B-1FD6-FEAFED2A5942</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="18B599D8-9711-27E0-9BBA-DB9CA5FA3DD3">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>64142D84-4FEC-B5BE-A5C5-DBE7D63E774C</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSACCION_TRANSACCION_ID" id="E5208FC9-FCE1-B842-8CF7-D92C1410CD3F">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE2C13AB-97F0-1674-E232-DF9C2D265A1A" referredColumn="7523D7E7-B6D8-92D0-AE66-37142B190E5F"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_PRODUCTO_ID" id="7589C2CC-01FE-C58E-195E-FA6B1C1FC84C">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C40C89E-B030-CD88-C7D2-3DC4D90A05C7" referredColumn="22170A01-7600-9C2F-E444-139BC9E06E7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3681188A-C33C-3A9B-D930-47DC96628F25" name="DETALLE_TRANSACCION_FK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<generatorID>6F243542-ABE7-458D-0219-49ECD696A5EF</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5208FC9-FCE1-B842-8CF7-D92C1410CD3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E606977A-A9F4-A4A7-55D8-F5DAEB549793" name="DETALLE_PRODUCTO_FK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<generatorID>4EAFABC8-BE28-A5CD-3CE6-0570E0F7BE3D</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7589C2CC-01FE-C58E-195E-FA6B1C1FC84C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,281 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC1B2AED-F0DF-508D-F8E4-65428B92B486" name="TRANSACCION">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>067038E9-712E-C211-3F3E-5C54CCDC825D</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANSACCION_ID" id="7523D7E7-B6D8-92D0-AE66-37142B190E5F">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID" id="E047B936-A329-A5C1-D949-BD7984121DBB">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>750C6EEE-5E58-2407-EBCF-D1AC51C0ACF8</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="E16A26CD-F578-0AF4-31C8-5D0A0E610AD1">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>4D32A748-5A50-F52E-7577-9C67A70877A1</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORRELATIVO" id="3CD37850-1CDB-ECCC-0D0D-014253F89A01">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>93E184CF-CAAF-6E34-27CB-244A6B4B38C6</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="C32F357E-133C-2078-0705-586292B6E4B1">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>0622FDCD-08FD-DD89-A1A2-9D4E47C15187</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE" id="7B5D698B-CA95-8AA2-0E54-E34AC05ECE43">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>300C8937-76D1-C5BB-DFD0-398A276EEAC8</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICULO" id="74DF0F6C-A822-B159-7649-C75F4B58F198">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>53B3173D-94B7-2C56-60E5-6B6DD3E4EDDD</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MECANICO" id="63538E26-C25B-2A39-1B5E-DF3F32B5BDC4">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>61376DDD-FF83-4F8C-4E6F-4FA21E1C3046</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL" id="FB69850F-5938-CABF-C0D4-62DDEA377B71">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>BA09849D-B6C4-F179-CA27-EB74B77DCD90</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANTICIPO" id="83F5F8C4-EA49-B298-689B-554D69D1B2C3">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>02DD4652-077F-3A37-ADEC-D06E8652AFA4</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="995E07E5-7F43-083C-9ECE-3FFFF92B831D">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>67BE40EC-BDFE-E4D1-1B0A-69B7C28752CE</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRAN_TOTAL" id="60581694-75E2-7D20-586D-9327E212E0C9">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>F1C409E7-C450-3911-8257-961314F1BD6B</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANOTACIONES" id="E6C3C1DB-063B-A0D6-0234-C26244D50C7C">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:32:45 UTC</createdTime>
+<generatorID>D5560E9E-85F5-7124-76AB-3AD5CEC86E01</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TRANSACCION_TIPO_TRANSACCION_ID" id="73744BC5-AEC7-BCB0-3ABF-07EC5782F746">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FC78A78-0C5E-C0CD-DC4A-26B3FBD1C162" referredColumn="A3BF750B-649D-B3B8-DACB-8BE4981CCA60"/>
+</associations>
+</Column>
+<Column name="Persona_Persona_ID" id="BA1F62F9-A191-57E0-9B09-E0C911A821BB">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE2ECFD4-EFA6-0015-9BC6-41E170EBF9BA" referredColumn="A137B3B0-6345-94B2-CE67-620A0AE4D61F"/>
+</associations>
+</Column>
+<Column name="VEHICULO_VEHICULO_ID" id="42BA54D7-3CDC-57DC-4F73-9348E7C90858">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70ED6989-F860-8317-5A3A-41B1B930E7A3" referredColumn="234CEFDC-E15E-C0CB-45E2-C79BAD4119BD"/>
+</associations>
+</Column>
+<Column name="Persona_Persona_ID1" id="ABD3CF8E-647B-856D-1C8D-4978EF883CBD">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6C84B13-A85F-DC89-33CF-1EDA5C82A1E8" referredColumn="A137B3B0-6345-94B2-CE67-620A0AE4D61F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD06D5A1-A286-80A8-1BF4-E600B36E0D79" name="TRANSACCION_PK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<ownerDesignName>er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7523D7E7-B6D8-92D0-AE66-37142B190E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12DA7CF5-2908-B8D7-5724-DB0B31B68D47" name="TRANSACCION_TIPO_TRANSACCION_FK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<generatorID>5B643315-F2B1-F819-130A-E62EDCAA49CD</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73744BC5-AEC7-BCB0-3ABF-07EC5782F746"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC322FA9-D7F9-FC30-57E5-4833574F71F6" name="TRANSACCION_Persona_FK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<generatorID>78CD1E4E-0777-B817-1184-27D3BB5C3ABF</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA1F62F9-A191-57E0-9B09-E0C911A821BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE92A127-97F3-A8FC-1B6A-983E3080FB61" name="TRANSACCION_VEHICULO_FK">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<generatorID>D9A4117B-8AA7-11B0-B96B-FCE042D532C9</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BA54D7-3CDC-57DC-4F73-9348E7C90858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0A00DF4-3BDF-8923-7F39-96AABA55C172" name="TRANSACCION_Persona_FKv1">
+<createdBy>Haldamir</createdBy>
+<createdTime>2019-12-27 18:36:07 UTC</createdTime>
+<generatorID>A7EC94ED-E23A-EA92-BE55-BF33A38E6158</generatorID>
+<ownerDesignName>er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD3CF8E-647B-856D-1C8D-4978EF883CBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
